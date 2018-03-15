@@ -11,8 +11,6 @@ import os.path as op
 from nose.tools import assert_true
 from numpy.testing.utils import assert_array_equal, assert_array_almost_equal
 from pandas import DataFrame as df
-from jr.utils import tile_memory_free, pairwise
-from jr.stats import repeated_spearman, fast_mannwhitneyu, corr_linear_circular
 
 
 def get_events_from_mat(fname_behavior):
@@ -403,20 +401,6 @@ def read_hpi_mri(fname):
             landmark['nasion'] = [float(x), float(y), float(z)]
         idx += 1
     return landmark
-
-
-def repeated_circlin(y_line, y_circ):
-    """Scoring function to compute pseudo R value from circular linear
-    correlation"""
-    R, R2, pval = corr_linear_circular(y_line, y_circ)
-    return R
-
-
-def repeated_auc(X, y):
-    unique_y = np.unique(y)
-    _, _, auc = fast_mannwhitneyu(X[y == unique_y[0], ...],
-                                  X[y == unique_y[1], ...], n_jobs=1)
-    return auc
 
 
 def check_freesurfer(subjects_dir, subject):  # from jr.meg

@@ -1,6 +1,11 @@
-path_data = 'set_path_to_data'
+path_data = 'path_to_data'
 
 # ALl MEG participants (now 23)
+subjects = ['sub-01', 'sub-02', 'sub-03', 'sub-04', 'sub-05', 'sub-06',
+            'sub-07', 'sub-08', 'sub-09', 'sub-10', 'sub-11', 'sub-12',
+            'sub-13', 'sub-14', 'sub-15', 'sub-16', 'sub-17', 'sub-18',
+            'sub-19', 'sub-20', 'sub-21', 'sub-22', 'sub-23']
+
 subjects = ['sub01_YFAALKWR', 'sub03_XATEOUZW', 'sub04_RNWLIWSH',
             'sub05_NJCOADSS', 'sub06_KIYHCRAK', 'sub11_ADGGGJAZ',
             'sub12_XZUKLHYZ', 'sub13_BMFIUFUK', 'sub15_ZAEWEXFK',
@@ -10,11 +15,8 @@ subjects = ['sub01_YFAALKWR', 'sub03_XATEOUZW', 'sub04_RNWLIWSH',
             'sub31_XOXCSZKR', 'sub32_GPCMEOPG', 'sub34_IDTAFQLI',
             'sub36_VJDXBLVP', 'sub37_UAJOEIRJ']
 # Session with with localiser (subject_%s % session)
-subjects_con = ['sub01_YFAALKWR_2', 'sub05_NJCOADSS_2', 'sub11_ADGGGJAZ_2',
-                'sub12_XZUKLHYZ_2', 'sub15_ZAEWEXFK_1', 'sub19_HDYJKAXR_1',
-                'sub19_HDYJKAXR_2', 'sub20_EEHMPRTU_1', 'sub20_EEHMPRTU_2',
-                'sub22_UCGKIOMF_1', 'sub22_UCGKIOMF_2', 'sub24_NMJNKUYE_1',
-                'sub25_RRUFDMMN_1', 'sub25_RRUFDMMN_2', 'sub26_GMSAFKJB_1',
-                'sub26_GMSAFKJB_2', 'sub28_LUVWJCKS_1', 'sub30_LRQLVTFW_1',
-                'sub31_XOXCSZKR_1', 'sub32_GPCMEOPG_1', 'sub34_IDTAFQLI_1',
-                'sub36_VJDXBLVP_1']
+subjects_con = ['sub-01_2', 'sub-04_2', 'sub-06_2', 'sub-07_2', 'sub-09_1',
+                'sub-10_1', 'sub-10_2', 'sub-11_1', 'sub-11_2',
+                'sub-12_1', 'sub-12_2', 'sub-13_1', 'sub-14_1', 'sub-14_2',
+                'sub-15_1', 'sub-15_2', 'sub-16_1', 'sub_18_1',
+                'sub-19_1', 'sub-20_1', 'sub-21_1', 'sub-22_1']
