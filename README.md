@@ -14,7 +14,7 @@ Working memory is our ability to temporarily hold information as needed for comp
 Data
 ====
 
-The data will be made publicly accessible soon at https://www.mcgill.ca/bic/resources/omega (Niso et al. 2016,  OMEGA: The Open MEG Archive)
+Data are publicly accessible at https://box.bic.mni.mcgill.ca/s/Pgdr5arhsERLLeb (Niso et al. 2016,  OMEGA: The Open MEG Archive)
 
 Scripts
 =======
