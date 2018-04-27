@@ -22,9 +22,9 @@ Scripts
 Overall, the current scripts remain designed for research purposes, and could therefore be improved and clarified. If you judge that some codes would benefit from specific clarifications do not hesitate to contact us.
 
 Scripts are separated in 3 folders:
-save_epochs: MEG preprocessing
-run_decoding: MVPA decoding analyses in sensor space, time-frequency and sources
-plot: group-level statistics and plotting
+- save_epochs: MEG preprocessing,
+- run_decoding: MVPA decoding analyses in sensor space, time-frequency and sources,
+- plot: group-level statistics and plotting
 
 #### Config files
 - 'base.py' # where all generic functions are defined
