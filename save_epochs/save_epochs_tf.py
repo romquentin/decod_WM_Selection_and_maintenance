@@ -103,7 +103,6 @@ for subject in subjects:
             fname_raw = op.join(path_data, subject, this_run)
             print(fname_raw)
             raw = read_raw_ctf(fname_raw, preload=True, system_clock='ignore')
-            raw.filter(l_freq=.05, h_freq=25.0, fir_design='firwin')
             events_meg_run = make_events_run(events_behavior_type, run_number)
             event_id = {'ttl_%i' % ii: ii
                         for ii in np.unique(events_meg_run[:, 2])}
