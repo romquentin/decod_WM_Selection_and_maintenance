@@ -8,7 +8,7 @@ Romain Quentin, Jean-Rémi King, Etienne Sallard, Nathan Fishman, Ryan Thompson,
 Abstract
 ========
 
-Working memory is our ability to temporarily hold information as needed for complex cognitive operations. Models of working memory distinguish two separate processes: (i) a selection rule that identifies the content to be recalled and (ii) the maintenance of the content. We aimed to characterize the spatiotemporal neural dynamics underlying these two components. Healthy participants performed a visual working memory task during magnetoencephalography (MEG) recording. Multivariate Pattern Analysis (MVPA) and source analyses identified two distinct types of working memory neural processes underlying selection and maintenance of the content. The selection rule is specifically decoded from sustained low-frequency (<20Hz) neural activity within a cortical network that includes the ventrolateral prefrontal cortex. By contrast, working memory content is transiently reactivated over a distributed and occipito-temporal network that differs from that encoding the sensory stimulus. These results reveal different neural mechanisms that select and maintain information in memory and could account for previous paradoxical reports of persistent and dynamic neural correlates of working memory.
+Working memory is our ability to select and temporarily hold information as needed for complex cognitive operations. The temporal dynamics of sustained and transient neural activity supporting the selection and holding of memory content is not known. To address this problem, we recorded magnetoencephalography (MEG) in healthy participants performing a retro-cue working memory task in which the selection rule and the memory content varied independently. Multivariate decoding and source analyses showed that selecting the memory content relies on prefrontal and parieto-occipital persistent oscillatory neural activity. By contrast, the memory content was reactivated in a distributed occipito-temporal posterior network, preceding the working memory decision and in a different format that during the visual encoding. These results identify a neural signature of content selection and characterize differentiated spatiotemporal constraints for subprocesses of working memory.
 
 
 Data
@@ -39,6 +39,7 @@ Scripts are separated in 3 folders:
 - 'run_decoding_WM.py'  # decoding in sensor space during WM task
 - 'run_decoding_WM_timefreq.py'  # decoding in time-frequency domain during WM task
 - 'run_decoding_WM_source_pattern.py'  # decoding in source space during WM task and save weights and  patterns
+- 'run_decoding_WM_tf_source_pattern.py'  # decoding in time-frequency source space during WM task and save weights and  patterns
 - 'run_decoding_locacue.py'  # decoding in sensor space during control task (localizer)
 - 'run_decoding_locacue_timefreq.py'  # decoding in time-frequency domain during control task (localizer)
 - 'run_decoding_locacue_across_task.py'  # decoding in sensor space during control task (localizer) with estimators trained during WM task
