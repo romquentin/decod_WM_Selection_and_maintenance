@@ -1,8 +1,8 @@
-# Code corresponding to [this manuscript](https://www.biorxiv.org/content/early/2018/03/16/283234)
+# Code corresponding to [this manuscript](https://doi.org/10.1101/283234)
 
  Differential brain mechanisms of selection and maintenance of information during working memory
 ================
-Romain Quentin, Jean-Rémi King, Etienne Sallard, Nathan Fishman, Ryan Thompson, Ethan Buch & Leonardo G. Cohen Biorxiv 2018 (https://doi.org/10.18112/openneuro.ds001750.v1.3.0)
+Romain Quentin, Jean-Rémi King, Etienne Sallard, Nathan Fishman, Ryan Thompson, Ethan Buch & Leonardo G. Cohen Biorxiv 2018 (https://doi.org/10.1101/283234)
 
 
 Abstract
@@ -14,7 +14,7 @@ Working memory is our ability to select and temporarily hold information as need
 Data
 ====
 
-Data are publicly accessible at http://dx.doi.org/10.23686/0061666 (Niso et al. 2016,  OMEGA: The Open MEG Archive)
+Data are publicly accessible at https://doi.org/10.18112/openneuro.ds001750.v1.3.0 (OpenNeuro Neuroimaging Platform)
 
 Scripts
 =======
