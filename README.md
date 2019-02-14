@@ -2,7 +2,7 @@
 
  Differential brain mechanisms of selection and maintenance of information during working memory
 ================
-Romain Quentin, Jean-Rémi King, Etienne Sallard, Nathan Fishman, Ryan Thompson, Ethan Buch & Leonardo G. Cohen Biorxiv 2018 (https://doi.org/10.1101/283234)
+Romain Quentin, Jean-Rémi King, Etienne Sallard, Nathan Fishman, Ryan Thompson, Ethan Buch & Leonardo G. Cohen Biorxiv 2018 (https://doi.org/10.18112/openneuro.ds001750.v1.3.0)
 
 
 Abstract
